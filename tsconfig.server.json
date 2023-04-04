@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES6",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./server",
+    "moduleResolution": "node",
+    "sourceMap": true
+  },
+  "compileOnSave": true,
+  "exclude": [
+    "./src/client"
+  ],
+  "include": [
+    "./src/server"
+  ]
+}
